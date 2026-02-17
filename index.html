@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores del ADSO | Comida Rápida</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <header>
+        <img src="img/logo.png" alt="Sabores del ADSO Logo">
+        <nav>
+            <a href="#galeria">Galeria</a>
+            <a href="#opiniones">Opiniones</a>
+            <a href="#info">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Sabores del ADSO</h1>
+        <p>Comida rápida de calidad para los cracks de la programación.</p>
+        <a href="#menu" class="btn">Explorar Menú</a>
+    </section>
+
+    <section id="galeria">
+        <h2>Nuestros Platos</h2>
+        <div class="gallery">
+            <img src="img/hamburguesa.jpg" alt="Hamburguesa">
+            <img src="img/salchipapa.jpeg" alt="Salchipapas">
+            <img src="img/img.jpg" alt="Perros calientes">
+        </div>
+    </section>
+
+    <section id="opiniones">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="reviews">
+            <div class="review">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Cliente María">
+                <div class="review-content">
+                    <p>"Excelente servicio y la mejor hamburguesa que he probado."</p>
+                    <strong>- María G.</strong>
+                </div>
+            </div>
+
+            <div class="review">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Cliente Carlos">
+                <div class="review-content">
+                    <p>"Rápido, delicioso y a buen precio. Siempre vuelvo."</p>
+                    <strong>- Carlos R.</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="seccion-menu">
+        <h2 class="titulo-seccion-menu">NUESTRO MENÚ</h2>
+        
+        <div class="contenedor-menu">
+            <!-- Hamburguesa -->
+            <div class="producto">
+                <img src="img/hamburguesa.jpg" alt="Hamburguesa">
+                <div class="info">
+                    <div class="nombre-precio">
+                        <span>Hamburguesa Clásica</span>
+                        <span>$12.000</span>
+                    </div>
+                    <div class="ingredientes">
+                        Pan artesanal, carne 100% de res, queso cheddar, lechuga fresca, tomate, cebolla y salsa especial de la casa.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Perro Caliente -->
+            <div class="producto">
+                <img src="img/img.jpg" alt="Perro Caliente">
+                <div class="info">
+                    <div class="nombre-precio">
+                        <span>Perro Caliente Especial</span>
+                        <span>$10.000</span>
+                    </div>
+                    <div class="ingredientes">
+                        Pan suave, salchicha premium, queso rallado, papitas trituradas, salsa rosada, mostaza y maíz dulce.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Salchipapa -->
+            <div class="producto">
+                <img src="img/salchipapa.jpeg" alt="Salchipapa">
+                <div class="info">
+                    <div class="nombre-precio">
+                        <span>Salchipapa Familiar</span>
+                        <span>$18.000</span>
+                    </div>
+                    <div class="ingredientes">
+                        Papas fritas crocantes, salchicha en rodajas, queso fundido, tocineta, salsa de tomate y mayonesa.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gaseosa -->
+            <div class="producto">
+                <img src="img/GASEOSA-PERSONAL.jpg" alt="Gaseosa">
+                <div class="info">
+                    <div class="nombre-precio">
+                        <span>Gaseosa Personal</span>
+                        <span>$3.000</span>
+                    </div>
+                    <div class="ingredientes">
+                        Bebida gaseosa fría 400ml. Sabores disponibles: cola, naranja o limón.
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                ¡Gracias por preferirnos!
+            </div>
+            
+            <div class="volver-arriba">
+                <button class="btn-arriba" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">⬆ Volver arriba</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="instalaciones">
+        <h2>Nuestras Instalaciones</h2>
+        <div class="galeria-instalaciones">
+            <img src="img/instalaciones1.jpg" alt="Instalaciones 1">
+            <img src="img/instalaciones2.jpg" alt="Instalaciones 2">
+        </div>
+    </section>
+    
+    <section id="info" class="info">
+        <h2>Horarios y Ubicación</h2>
+        <p>Lunes a Viernes: 12:00 PM - 9:00 PM</p>
+        <p>Sábados: 1:00 PM - 10:00 PM</p>
+        <p>Domingos y festivos: 2:00 PM - 8:00 PM</p>
+        <p><strong>Correo electrónico: </strong>saboresdeladso@gmail.com</p>
+    </section>
+
+    <div class="contenedor-botones">
+        <a href="https://www.instagram.com/saboresdeladso?igsh=M2YwYjF3djJmYWR1" target="_blank" class="btn-social instagram">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+
+        <a href="https://api.whatsapp.com/send/?phone=573024412917&text&type=phone_number&app_absent=0" target="_blank" class="btn-social whatsapp">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+
+        <a href="https://maps.app.goo.gl/woJkiCKmsb5R7fss6" target="_blank" class="btn-social dirección">
+            <i class="fas fa-map-marker-alt"></i> Dirección
+        </a>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Sabores del ADSO - Todos los derechos reservados</p>
+    </footer>
+
+<script src="/js/script.js"></script>
+</body>
+</html>
